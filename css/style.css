@@ -1,0 +1,40 @@
+* {
+    color: white;
+}
+*:focus {
+    outline: none;
+}
+.hidden {
+    display: none;
+}
+bgImage {
+    height: 100vh;
+    width: 100vh;
+}
+body {
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+#clock {
+    font-size: 20vh;
+    margin: 20vh 0px 0px 0px;
+}
+#greeting {
+    font-size: 8vh;
+    margin-top: 1vh;
+}
+#input1 {
+    background-color: unset;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-color: black;
+}
+button {
+    background-color: unset;
+    border: unset;
+}
